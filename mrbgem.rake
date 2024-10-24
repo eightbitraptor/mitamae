@@ -29,7 +29,6 @@ MRuby::Gem::Specification.new('mitamae') do |spec|
   spec.add_dependency 'mruby-open3',       mgem: 'mruby-open3'
   spec.add_dependency 'mruby-optparse',    mgem: 'mruby-optparse'
   spec.add_dependency 'mruby-shellwords',  mgem: 'mruby-shellwords'
-  spec.add_dependency 'mruby-specinfra',   mgem: 'mruby-specinfra'
 
   spec.add_dependency 'mruby-tempfile',  github: 'k0kubun/mruby-tempfile'
   spec.add_dependency 'mruby-yaml',      github: 'mrbgems/mruby-yaml'
@@ -37,4 +36,5 @@ MRuby::Gem::Specification.new('mitamae') do |spec|
   spec.add_dependency 'mruby-etc',       github: 'eagletmt/mruby-etc'
   spec.add_dependency 'mruby-uri',       github: 'zzak/mruby-uri'
   spec.add_dependency 'mruby-schash',    github: 'tatsushid/mruby-schash'
+  spec.add_dependency 'mruby-specinfra', github: 'eightbitraptor/mruby-specinfra', branch: 'mvh-void-support'
 end
